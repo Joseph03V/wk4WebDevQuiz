@@ -15,7 +15,7 @@ I struggled IMMENSLY on the javascript portion of this project. I feel like I kn
 I had a lot of practice on javascript. Didn't learn alot though.
 
 ## Screenshot 
-![Alt text](<images\Screenshot 2023-10-16 180040.png>)
+![Alt text](<./images/Screenshot 2023-10-16 180040.png>)
 
 ## Link to application
 [a link] ( )
