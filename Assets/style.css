@@ -1,0 +1,52 @@
+:root{
+    --purp: rgb(115,79,154);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.highscoresLink{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+}
+
+h1{
+    font-size: 250%;
+}
+.start , .highscores{
+    max-width: 600px;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    font-size: medium;
+}
+
+/* .hide{
+    display: none;
+} */
+
+.button{
+    color: white;
+    background-color: var(--purp);
+    width: auto;
+    height: 20;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.timer{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-size: large;
+}
+
+

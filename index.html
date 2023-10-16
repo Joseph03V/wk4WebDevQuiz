@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title> WevDev Quiz</title>
+        <link rel="stylesheet" href="./Assets/style.css">
+    </head>
+
+    <body>
+        <!-- Link to the highscores -->
+        <section class="highscoresLink"> 
+            <a href="scores.html">View Highscores</a>
+        </section>
+
+        <!-- Start of quiz -->
+    <section> 
+
+        <section class="start" id="start">
+            <h1>Coding Quiz Challenge</h1>
+            <p>It's TIME to test your knowledge! This is a timed web development 
+                quiz. Each time you get an answer wrong
+                the time decreases by 15 seconds. GoodLuck!</p>
+            <button class="button" id="startButton">Start Quiz</button>
+        </section>
+
+        <!-- Quiz questions -->
+        <section id="questions" class="hide">
+            <h2 id="question-title"></h2>
+            <section id="choices" class="choices"></section>
+        </section>
+
+        <!-- End of quiz -->
+        <section id="end" class="hide">
+            <h2>Quiz Over!</h2>
+            <p>Your score is: <span id="final-score"></span>!</p>
+            <p>Enter Initials: <input type="text" id="initials-input" max="3"/>
+            <button class="button" id="submitButton">Submit</button>
+            </p>
+        </section>
+
+        <!-- TImer -->
+        <section class="timer">
+            Time: <span id="timerspan"> 0</span>
+        </section>
+        
+    </section>
+
+    <script src="./Assets/script.js"></script>
+    </body>
+</html>
